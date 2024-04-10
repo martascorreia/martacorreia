@@ -1,0 +1,18 @@
+.textButton {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+#textBtn {
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 35px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Lexend Deca";
+}
