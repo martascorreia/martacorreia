@@ -1,9 +1,9 @@
 import React from 'react';
-import "./index.css"
+import "../../index.css"
 import "./Home.css"
-import Header from "./components/Header/Header"
-import Footer from "./components/Footer/Footer"
-import Main from "./components/Main/Main"
+import Header from "../Header/Header"
+import Footer from "../Footer/Footer"
+import Main from "../Main/Main"
 import "@fontsource/lexend-deca";
 
 function Home() {

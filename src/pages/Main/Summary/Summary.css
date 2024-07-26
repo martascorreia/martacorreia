@@ -1,41 +1,4 @@
-.Summary{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 80%;
-  background-color: #ffffff;
-  border-radius: 25px;
-  box-shadow: 5px 10px var(--dark-grey);
-}
-
-.titleSection{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 35px;
-  color: white;
-  width: 14%;
-  height: 70px;
-  background-color: #8393e2;
-  border-radius: 25px;
-  box-shadow: 5px 10px var(--dark-grey);
-  width: 100%;
-  border: 2px solid #8393e2;
-}
-
-.contentSection{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 85%;
-  height: 100%;
-  padding: 30px;
-}
-
-.section1{
+.summaryProfile{
   height: 100%;
   width: 30%;  
   display: flex;
@@ -43,11 +6,15 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+
+  @media(max-width: 1430px){
+    display: none;
+  }
 }
 
 .summaryImage{
-  width: 90%;
-  border: 2px solid #6675c0;
+  width: 50%;
+  border: 2px solid var(--dark-grey);
   border-radius: 25px;
 }
 
@@ -57,17 +24,19 @@
   color: var(--dark-grey);
 }
 
-.section2{
-  height: 100%;
-  width: 65%; 
-}
-
 .summarySummary{
-  padding: 10%;
   display: flex;
   flex-direction: column;
   gap: 15px;
   text-align: left;
+  height: 100%;
+  width: 60%; 
+  justify-content: center;
+
+  @media(max-width: 1430px){
+    text-align: center;
+    width: 80%;
+  }
 }
 
 .summaryTextTitle{
@@ -87,8 +56,12 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  gap: 30px;
-  font-size: 20px;
+  gap: 20px;
+  padding: 10px 0px;
+
+  @media(max-width: 1430px){
+    justify-content: center;
+  }
 }
 
 .summaryContact{
@@ -97,9 +70,26 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
+
+  .nav-link{
+    text-decoration: none;
+  }
+
+  .nav-link:hover{
+    color: var(--secondary-color);
+  }
 }
 
 .summaryContactIcon{
   font-size: 30px;
   color: var(--dark-grey);
+}
+
+
+.summarySection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
 }

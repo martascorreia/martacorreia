@@ -1,0 +1,32 @@
+.Header{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  box-shadow: 5px 10px var(--dark-grey);
+  border: 1px solid var(--dark-grey);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  min-height: 80px;
+  width: 85%;
+  border-radius: 25px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0.8em;
+  z-index: 100;
+}
+
+.headerBtns{
+  color: var(--dark-grey);
+  font-size: 1.5em !important;
+}
+
+.headerBtns:hover{
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+#aboutMe, #experience, #education{
+  scroll-margin: 17vh;
+}
