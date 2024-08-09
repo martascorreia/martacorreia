@@ -5,6 +5,7 @@ import "./Main.css"
 import Summary from './Summary/Summary';
 import Education from './Education/Education';
 import Experience from './Experience/Experience';
+import Projects from './Projects/Projects';
 
 function Main() {
 
@@ -23,6 +24,7 @@ function Main() {
       <Summary changeVisibility={changeVisibility} />
       <Experience changeVisibility={changeVisibility} />
       <Education changeVisibility={changeVisibility} />
+      <Projects changeVisibility={changeVisibility} />
     </div>
   );
 }

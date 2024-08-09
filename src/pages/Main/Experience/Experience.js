@@ -38,10 +38,14 @@ function Experience({ changeVisibility }) {
               startDate={new Date("2021-11-05")}
               endDate={new Date("2023-01-31")}
             />]}
-          description={"<ul><li>Web Development with <b>MERN</b> stack, as a Full-Stack developer - 8 months</li>" +
+          description={"I was part of 4 different projects within the same team:" +
+            "<ul>" +
+            "<li>Web Development with <b>MERN</b> stack, as a Full-Stack developer - 8 months</li>" +
             "<li>Development of a computer vision algorithm using <b>Java</b>, <b>Python</b> and the ORB algorithm from OpenCV - 8 months</li>" +
-            "<li>Web Development with <b>Java</b>, <b>Javascript</b>, <b>Maven</b>, <b>Primefaces</b> and <b>Oracle SQL</b> - 13 months</li></ul>" +
-            "In all projects, I worked with Azure DevOps. Methodologies were Agile and Waterfall."} />
+            "<li>Web Development with <b>Java</b>, <b>Javascript</b>, <b>Maven</b>, <b>Primefaces</b> and <b>Oracle SQL</b> - 16 months</li>" +
+            "<li>Web Development with <b>Liferay</b>, <b>Javascript</b>, <b>Gradle</b> and <b>Oracle SQL</b> - 4 months</li>" +
+            "</ul>" +
+            "I also worked with <b>Azure DevOps</b> and used the methodologies <b>Agile</b> and <b>Waterfall</b>."} />
       </div>
       <div id="section" className='experienceID'>
         <Entry
@@ -54,6 +58,7 @@ function Experience({ changeVisibility }) {
               startDate={new Date("2022-09-15")}
               hasSubEntries={false}
               type={'Full-Time'} />}
+          description={"Student Researcher during my Master's thesis on Web Augmented Reality applied to Cultural Heritage."}
         />
       </div>
       <div id="section" className='experienceID'>
@@ -68,6 +73,7 @@ function Experience({ changeVisibility }) {
               endDate={new Date("2021-10-15")}
               hasSubEntries={false}
               type={'Part-Time'} />}
+          description={"I taught english to first and second grade students in extracurricular classes."}
         />
       </div>
       <div id="section" className='experienceID'>

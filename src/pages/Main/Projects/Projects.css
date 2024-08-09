@@ -1,0 +1,29 @@
+
+#projectsSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    @media(max-width: 600px){
+        gap: 15px;
+    }
+}
+
+#smallerSection{
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 5px 10px var(--dark-grey);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid var(--dark-grey);
+    width: 45%;
+    display: flex;
+    justify-content: center;
+
+    @media(max-width: 600px){
+        width: 100em;
+    }
+  }

@@ -19,8 +19,10 @@ const Entry = ({ identification, logo, title, date, type, description, instituti
             <FontAwesomeIcon icon={icon.logo} />
             <a>{icon.text}</a>
           </div>)*/}
-      {false && description &&
-        <div className="entryDescription" dangerouslySetInnerHTML={{ __html: description }} />
+      {description &&
+        <div className="entryDescription">
+          <div dangerouslySetInnerHTML={{ __html: description }} />
+        </div>
       }
     </div>
   );
