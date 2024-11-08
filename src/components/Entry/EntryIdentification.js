@@ -28,7 +28,8 @@ const EntryIdentification = ({ logo, title, date, institution, type, startDate, 
             {"("}
             {timeYears != 0 &&
               timeYears + " yrs "}
-            {timeMonths + " mos"}
+            {timeYears != 0 &&
+              timeMonths + " mon"}
             {")"}
           </a>}
         </a>

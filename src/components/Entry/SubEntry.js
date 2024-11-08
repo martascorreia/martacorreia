@@ -24,7 +24,8 @@ const SubEntry = ({ title, date, startDate, endDate }) => {
               {"("}
               {timeYears != 0 &&
                 timeYears + " yrs "}
-              {timeMonths + " mos"}
+              {timeYears != 0 &&
+                timeMonths + " mon"}
               {")"}
             </a>}
           </a>
