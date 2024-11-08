@@ -21,9 +21,8 @@ function Summary({ changeVisibility }) {
           </div>
           <div className="summarySummary">
             <a className='summaryTextTitle'>Hi, welcome to my website :)</a>
-            <a className='summaryText'>My name is Marta Correia and I'm a Junior Software Developer.
-              I've always had a big passion for logical problems and arts, so I came to Software Development
-              for the mix of the two.</a>
+            <a className='summaryText'> My name is Marta and I'm a Software Developer. I've always had a big passion for logical problems and arts, 
+              so I chose Computer Science to get a good mix of the two.</a>
           </div>
         </div>
       </div>

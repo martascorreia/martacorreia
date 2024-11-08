@@ -1,3 +1,6 @@
+.Project{
+    color: white;
+}
 
 #projectsSection{
     display: flex;
@@ -13,17 +16,66 @@
 }
 
 #smallerSection{
-    background-color: #ffffff;
+    background-color: var(--darker-blue);
     border-radius: 25px;
     box-shadow: 5px 10px var(--dark-grey);
     padding-top: 30px;
     padding-bottom: 30px;
     border: 1px solid var(--dark-grey);
-    width: 45%;
+    width: 32%;
     display: flex;
     justify-content: center;
-
+    margin-bottom: 20px;
     @media(max-width: 600px){
         width: 100em;
     }
+  }
+
+  #projectImage{
+    height: 200px;
+    box-shadow: 10px solid var(--dark-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projectImg{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 2px 2px var(--dark-grey);
+  }
+
+  #projectTitle{
+    font-weight: bold;
+  }
+
+  #projectDescription{
+
+  }
+
+  #projectSkills{
+  }
+
+  #projectLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+
+  #projectsLinkBtn{
+    border-radius: 25px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    box-shadow: 2px 2px var(--dark-grey);
+    cursor: pointer;
+    font-weight: bold; 
+    color: var(--dark-grey);
+  }
+
+  #projectsLinkBtn:hover{
+    background-color: var(--secondary-color);   
+    color: white;
   }
