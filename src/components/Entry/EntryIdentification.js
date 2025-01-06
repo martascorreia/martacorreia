@@ -2,6 +2,7 @@ import React from 'react';
 import "./Entry.css";
 import "../../index.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { formatTimeDuration } from '../../resources/Utils';
 
 const EntryIdentification = ({ logo, title, date, institution, type, startDate, endDate, hasSubEntries }) => {
   if (startDate) {
@@ -25,12 +26,7 @@ const EntryIdentification = ({ logo, title, date, institution, type, startDate, 
           </a>}
         <a className="entryDate">{date} {startDate &&
           <a className="entryTime">
-            {"("}
-            {timeYears != 0 &&
-              timeYears + " yrs "}
-            {timeMonths != 0 &&
-              timeMonths + " mon"}
-            {")"}
+            {formatTimeDuration(timeYears, timeMonths)}
           </a>}
         </a>
         <a className="entryType">

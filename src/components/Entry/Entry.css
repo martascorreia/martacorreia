@@ -5,6 +5,10 @@
   justify-content: flex-start;
   width: 80%;
   gap: 10px;
+
+  @media(max-width: 1430px){
+    width: 90%;
+  }
 }
 
 .SubEntry{
@@ -43,12 +47,6 @@
   align-items: center;
   width: 100%;
   text-align: start;
-  gap: 10px;
-
-  @media(max-width: 530px){
-    flex-direction: column;
-    text-align: center;
-  }
 }
 
 .entryLogo{
@@ -59,8 +57,8 @@
   width: 15%;
   font-weight: bold;
 
-  @media(max-width: 530px){
-    width: 50%;
+  @media(max-width: 600px){
+    width: 30%;
   }
 }
 
@@ -72,6 +70,10 @@
   display: flex;
   flex-direction: column;
   gap: 3px;
+
+  @media(max-width: 600px){
+   width: 70%;
+  }
 }
 
 .entryDescription{
@@ -104,10 +106,21 @@
 
 .entryTime{
   font-weight: normal;
+
+  @media(max-width: 1430px){
+    display: none;
+  }
 }
 
 .entryText{
   justify-content: flex-start;
+}
+
+.entryType{
+
+  @media(max-width: 1430px){
+    display: none;
+  }
 }
 
 .multipleEntries{

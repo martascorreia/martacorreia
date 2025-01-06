@@ -1,5 +1,11 @@
 .Project{
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1250px;
 }
 
 #projectsSection{
@@ -16,10 +22,9 @@
 }
 
 #smallerSection{
-    background-color: var(--darker-blue);
+    background-color: white;
     border-radius: 25px;
     box-shadow: 5px 10px var(--dark-grey);
-    padding-top: 30px;
     padding-bottom: 30px;
     border: 1px solid var(--dark-grey);
     width: 32%;
@@ -32,7 +37,8 @@
   }
 
   #projectImage{
-    height: 200px;
+    margin-top: 10px;
+    width: 90%;
     box-shadow: 10px solid var(--dark-grey);
     display: flex;
     align-items: center;
@@ -45,6 +51,16 @@
     box-shadow: 2px 2px var(--dark-grey);
   }
 
+  #projectTextSection{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
   #projectTitle{
     font-weight: bold;
   }
@@ -54,28 +70,34 @@
   }
 
   #projectSkills{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: var(--main-color);
   }
 
   #projectLinks{
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: space-evenly;
+    width: 100%;
   }
   
 
   #projectsLinkBtn{
     border-radius: 25px;
-    height: 30px;
-    width: 70px;
+    height: 35px;
+    width: 100px;
     border: none;
     box-shadow: 2px 2px var(--dark-grey);
     cursor: pointer;
     font-weight: bold; 
     color: var(--dark-grey);
+    background-color: var(--main-color); 
+    color: white; 
   }
 
   #projectsLinkBtn:hover{
-    background-color: var(--secondary-color);   
-    color: white;
+    background-color: var(--secondary-color);
   }

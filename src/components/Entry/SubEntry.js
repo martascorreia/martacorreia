@@ -3,6 +3,7 @@ import "./Entry.css";
 import "../../index.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { formatTimeDuration } from '../../resources/Utils';
 
 const SubEntry = ({ title, date, startDate, endDate }) => {
   if (startDate) {
@@ -21,12 +22,7 @@ const SubEntry = ({ title, date, startDate, endDate }) => {
           </a>
           <a className="entryDate">{date} {startDate &&
             <a className="entryTime">
-              {"("}
-              {timeYears != 0 &&
-                timeYears + " yrs "}
-              {timeMonths != 0 &&
-                timeMonths + " mon"}
-              {")"}
+               {formatTimeDuration(timeYears, timeMonths)}
             </a>}
           </a>
         </div>

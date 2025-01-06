@@ -43,6 +43,7 @@
 #titleSection:hover{
   cursor: pointer;
   background-color: var(--secondary-color);
+  color: white;
 }
 
 #section{
