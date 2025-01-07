@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/martacorreia/static/css/main.c47c6d85.css",
-    "main.js": "/martacorreia/static/js/main.3ff9b06b.js",
+    "main.js": "/martacorreia/static/js/main.31b73103.js",
     "static/media/sondagem4A.jpeg": "/martacorreia/static/media/sondagem4A.b06259abf39b7ba4398e.jpeg",
     "static/media/cambridge.png": "/martacorreia/static/media/cambridge.7af859937a3883aeeb34.png",
     "static/media/lasige.png": "/martacorreia/static/media/lasige.876be82d263a90ce4008.png",
@@ -16,10 +16,10 @@
     "static/media/lexend-deca-vietnamese-400-normal.woff2": "/martacorreia/static/media/lexend-deca-vietnamese-400-normal.62c0e07d2353afb0be07.woff2",
     "index.html": "/martacorreia/index.html",
     "main.c47c6d85.css.map": "/martacorreia/static/css/main.c47c6d85.css.map",
-    "main.3ff9b06b.js.map": "/martacorreia/static/js/main.3ff9b06b.js.map"
+    "main.31b73103.js.map": "/martacorreia/static/js/main.31b73103.js.map"
   },
   "entrypoints": [
     "static/css/main.c47c6d85.css",
-    "static/js/main.3ff9b06b.js"
+    "static/js/main.31b73103.js"
   ]
 }
