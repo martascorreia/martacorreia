@@ -5,6 +5,7 @@ import "@fontsource/lexend-deca";
 import Entry from "../../../components/Entry/Entry"
 import EntryIdentification from "./../../../components/Entry/EntryIdentification"
 import fculLogo from "./../../../resources/images/fcul.png"
+import cambridgeLogo from "./../../../resources/images/cambridge.png"
 import { faCertificate, faList } from "@fortawesome/free-solid-svg-icons";
 
 function Education({ changeVisibility }) {
@@ -44,6 +45,17 @@ function Education({ changeVisibility }) {
               date={'Set 2017 - Jul 2020'}
               logo={fculLogo}
               institution={'Faculty of Sciences, University of Lisbon'}
+              hasSubEntries={false} />}
+        />
+      </div>
+      <div id="section" className='educationID'>
+        <Entry
+          identification={
+            <EntryIdentification
+              title={"Cambridge Certificate of Advanced English"}
+              date={'Jul 2019'}
+              logo={cambridgeLogo}
+              institution={'Cambridge School Portugal'}
               hasSubEntries={false} />}
         />
       </div>

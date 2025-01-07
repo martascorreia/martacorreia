@@ -11,7 +11,7 @@ function Header() {
       <Link to={'/'} className="nav-link"><TextButton className="headerBtns" text="About Me" elementId={"aboutMe"}/></Link>
       <Link to={'/'} className="nav-link"><TextButton className="headerBtns" text="Experience" elementId={"experience"}/></Link>
       <Link to={'/'} className="nav-link"><TextButton className="headerBtns" text="Education" elementId={"education"}/></Link>
-      <Link to={'/'} className="nav-link"><TextButton className="headerBtns" text="Projects" /></Link>
+      <Link to={'/'} className="nav-link"><TextButton className="headerBtns" text="Projects" elementId={"project"}/></Link>
     </div>
   );
 }

@@ -43,7 +43,7 @@ function Summary({ changeVisibility }) {
             </div>
             <div className='summaryContact'>
               <FontAwesomeIcon className='summaryContactIcon' icon={faAddressCard} />
-              <a href="https://drive.google.com/file/d/1i7YwiVXUgb9wYZBYWTe6VrHj0Wrco6tG/view" target="_blank" className="nav-link"> curriculum vitae</a>
+              <a href="https://drive.google.com/file/d/15EoUGYet2FwR-E4l_aN6rwhvRtCpJInC/view?usp=sharing" target="_blank" className="nav-link"> curriculum vitae</a>
             </div>
           </div>
         </div>

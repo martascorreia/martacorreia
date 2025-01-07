@@ -43,7 +43,7 @@ function Experience({ changeVisibility }) {
             "<li>Web Development with <b>MERN</b> stack, as a Full-Stack developer - 8 months</li>" +
             "<li>Computer vision algorithm using <b>Java</b>, <b>Python</b>, and OpenCV’s ORB algorithm - 8 months</li>" +
             "<li>Web Development with <b>Java</b>, <b>Javascript</b>, <b>Maven</b>, <b>Primefaces</b> and <b>Oracle SQL</b> - 14 months</li>" +
-            "<li>Web Development with <b>Liferay</b>, <b>Javascript</b>, <b>Freemarker</b>, <b>HTML</b>, <b>CSS</b> - 6 months</li>" +
+            "<li>Web Development with <b>Liferay</b>, <b>Javascript</b>, <b>Freemarker</b>, <b>HTML</b>, <b>CSS</b> - 8 months</li>" +
             "</ul>" +
             "I also worked with <b>Azure DevOps</b> and used the methodologies <b>Agile</b> and <b>Waterfall</b>."} />
       </div>
@@ -52,10 +52,11 @@ function Experience({ changeVisibility }) {
           identification={
             <EntryIdentification
               title={"Student Reasearcher"}
-              date={'Set 2022 - Present'}
+              date={'Set 2022 - Set 2024'}
               logo={lasigeLogo}
               institution={'LASIGE'}
               startDate={new Date("2022-09-15")}
+              endDate={new Date("2024-09-15")}
               hasSubEntries={false}
               type={'Full-Time'} />}
           description={"Student Researcher during my Master's thesis on Web Augmented Reality applied to Cultural Heritage."}
