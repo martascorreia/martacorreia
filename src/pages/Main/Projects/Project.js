@@ -5,7 +5,7 @@ import "@fontsource/lexend-deca";
 import Entry from "../../../components/Entry/Entry"
 import EntryIdentification from "./../../../components/Entry/EntryIdentification"
 
-function Project({ image, title, description, skills, codeLink, liveLink }) {
+function Project({ image, title, description, skills, links }) {
   return (
     <div className="Project" id="project">
       <div id="projectImage">
@@ -21,16 +21,13 @@ function Project({ image, title, description, skills, codeLink, liveLink }) {
         <div id="projectSkills">
           {skills}
         </div>
-        <div id="projectLinks">
-          {codeLink &&
-            <a href={codeLink} target="_blank" rel="noopener noreferrer">
-              <button id="projectsLinkBtn">Code</button>
-            </a>}
-          {liveLink &&
-            <a href={liveLink} target="_blank" rel="noopener noreferrer">
-              <button id="projectsLinkBtn">Live</button>
-            </a>}
-        </div>
+            <div id="projectLinks">
+            {Object.entries(links).map(([key, url]) => (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+              <button id="projectsLinkBtn">{key}</button>
+              </a>
+            ))}
+          </div>
       </div>
     </div>
   );
