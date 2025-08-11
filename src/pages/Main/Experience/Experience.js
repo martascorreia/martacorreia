@@ -38,14 +38,14 @@ function Experience({ changeVisibility }) {
               startDate={new Date("2021-11-05")}
               endDate={new Date("2023-01-31")}
             />]}
-          description={"I worked on 4 different projects, within the same team:" +
+          description={"I've worked on 4 different projects, within the same team:" +
             "<ul>" +
-            "<li>Web Development with <b>MERN</b> stack, as a Full-Stack developer - 8 months</li>" +
-            "<li>Computer vision algorithm using <b>Java</b>, <b>Python</b>, and OpenCV’s ORB algorithm - 8 months</li>" +
+            "<li>Web Development with <b>MERN</b> stack, as a Full-Stack developer - 10 months</li>" +
+            "<li>Computer vision algorithm using <b>Java</b>, <b>Python</b>, and OpenCV’s ORB algorithm - 7 months</li>" +
             "<li>Web Development with <b>Java</b>, <b>Javascript</b>, <b>Maven</b>, <b>Primefaces</b> and <b>Oracle SQL</b> - 14 months</li>" +
-            "<li>Web Development with <b>Liferay</b>, <b>Javascript</b>, <b>Freemarker</b>, <b>HTML</b>, <b>CSS</b> - 8 months</li>" +
+            "<li>Web Development with <b>Liferay</b>, <b>Javascript</b>, <b>Freemarker</b>, <b>HTML</b>, <b>CSS</b> - 14 months</li>" +
             "</ul>" +
-            "I also worked with <b>Azure DevOps</b> and used the methodologies <b>Agile</b> and <b>Waterfall</b>."} />
+            "I also worked with <b>Agile</b>, <b>Kanbabn</b> and <b>Waterfall</b>."} />
       </div>
       <div id="section" className='experienceID'>
         <Entry
